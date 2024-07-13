@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HTTPRequests from './components/HTTPRequests';
 // import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
@@ -22,12 +23,14 @@ import './App.css';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import UseEffectCounter from './components/UseEffectCounter';
-import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+
 
 
 function App() {
   return (
     <div className="App">
+        <HTTPRequests />
       {/* <FunctionalGreetingWithProps greeting="Nice to meet you!"  name="Mike"  age="32" /> */}
       {/* <StatefulGreetingWithPrevState/> */}
       {/* <EventsFunctional />
@@ -48,7 +51,8 @@ function App() {
       {/* <UseStateWithArrays /> */}
       {/* <UseStateWithObjects /> */}
       {/* <UseEffectCounter /> */}
-      <UseEffectCounterContainer />
+      {/* <UseEffectCounterContainer /> */}
+    
     </div>
   );
 }
