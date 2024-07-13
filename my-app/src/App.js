@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 // import HTTPRequests from './components/HTTPRequests';
-import HTTPPost from './components/HTTPPost';
+// import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 // import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
@@ -31,7 +32,8 @@ import HTTPPost from './components/HTTPPost';
 function App() {
   return (
     <div className="App">
-      <HTTPPost />
+      <HTTPHooks />
+      {/* <HTTPPost /> */}
       {/* <HTTPRequests /> */}
       {/* <FunctionalGreetingWithProps greeting="Nice to meet you!"  name="Mike"  age="32" /> */}
       {/* <StatefulGreetingWithPrevState/> */}
